@@ -40,7 +40,7 @@ public class testmeapplogin {
 		driver.findElement(By.name("Login")).click();
 		System.out.println("the page title is "+driver.getTitle());
 
-Assert.assertTrue(driver.getTitle().contains("Home"));
+Assert.assertTrue(driver.getTitle().contains("Home"));   
 	    
 	}
 	
